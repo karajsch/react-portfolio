@@ -9,6 +9,7 @@ import Contact from "./components/pages/Contact";
 
 //importing components
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
+        <Footer />
       </div>
     </Router>
   );

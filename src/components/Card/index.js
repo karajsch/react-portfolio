@@ -4,7 +4,7 @@ import "./style.css";
 //pass in PROPS to our card variable
 const Card = (props) => {
   return (
-    <div className="col mb-4">
+    <div className="col mb-5">
       <div className="card h-100">
         <h2 className="card-header"><i class={props.icon}></i> {props.title}</h2>
         <img
@@ -13,8 +13,8 @@ const Card = (props) => {
           alt="Screenshot of project"
         />
         <div className="card-body">
-          <h6 className="card-subtitle mb-3 text-muted">
-            Tools: {props.tools}
+          <h6 className="card-subtitle mb-3 tools">
+            <u>Tools</u>: {props.tools}
           </h6>
           <p className="card-text">{props.description}</p>
           </div>
