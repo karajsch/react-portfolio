@@ -32,17 +32,17 @@ function About() {
 
           <div className="text-center mb-5">
             <i class="far fa-file-pdf"></i> <br />
-            <a href="res">Resume</a>
+            <a href="Resume_02-09-2021.pdf">Resume</a>
           </div>
 
           <div className="text-center mb-5">
             <i class="fas fa-code-branch"></i> <br />
-            <a href="https://github.com/karajsch">GitHub</a>
+            <a href="https://github.com/karajsch" target="_new">GitHub</a>
           </div>
 
           <div className="text-center mb-5">
             <i class="fab fa-linkedin"></i> <br />
-            <a href="https://www.linkedin.com/in/karajsch/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/karajsch/" target="_new">LinkedIn</a>
           </div>
         </div>
       </div>
