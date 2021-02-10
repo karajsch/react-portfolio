@@ -1,7 +1,8 @@
 import React from "react";
+
 const cardStyle = {
-    backgroundColor: "lightgrey",
-    color: "green"
+    backgroundColor: "lightpink",
+    color: "blue"
 };
 
 const Card = (props) => {
