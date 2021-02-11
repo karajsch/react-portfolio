@@ -1,8 +1,30 @@
-body {
-background: pink;
+body, p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #333;
+    line-height: 26px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: rgb(255, 106, 106);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: xx-large;
+  padding: 25px;
+}
+
+a:link, a:visited, a:active {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 106, 106);
+  font-weight: bold;
+  font-style: italic;
+}
+
+a:hover {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
 }

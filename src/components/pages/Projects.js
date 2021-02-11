@@ -10,7 +10,8 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <h1>Projects.</h1>
+        <h1>Projects</h1>
+        <div className="row row-cols-1 row-cols-md-2 m-5">
         {this.state.projects
           ? this.state.projects.map((project, index) => {
               return (
@@ -25,6 +26,7 @@ class Projects extends Component {
               );
             })
           : "No projects found"}
+          </div>
       </div>
     );
   }
