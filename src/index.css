@@ -1,30 +1,52 @@
 body, p {
   font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    color: #333;
+    color: #3333cc;
     line-height: 26px;
+    background: #ff9999;
+    font-style: italic;
 }
 
 h1 {
-  color: rgb(255, 106, 106);
+  color: #3333cc;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight: 200;
   font-style: italic;
-  font-size: xx-large;
-  padding: 25px;
+  font-size: 72pt;
+}
+
+h2 {
+  color: #3333cc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 28pt;
 }
 
 a:link, a:visited, a:active {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(255, 106, 106);
-  font-weight: bold;
+  color: #3333cc;
+  font-weight: 200;
   font-style: italic;
 }
 
 a:hover {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #333;
-  font-weight: bold;
+  color: #ffffff;
+  font-weight: 200;
   font-style: italic;
   text-decoration: none;
+}
+
+.card {
+  background: #ff9999;
+  border: 1px solid #3333cc;
+}
+
+.card-header {
+  border-bottom: 1px solid #3333cc;
+}
+
+.card-footer {
+  border-top: 1px solid #3333cc;
 }

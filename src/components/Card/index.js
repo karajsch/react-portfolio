@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
+//pass in PROPS to our card variable
 const Card = (props) => {
-  //   return Object.keys(props).map((value, index) => {
   return (
-    <div class="col mb-4">
+    <div className="col mb-4">
       <div className="card h-100">
-        <h1 className="card-header">{props.title}</h1>
+        <h2 className="card-header"><i class={props.icon}></i> {props.title}</h2>
         <img
           src={props.image}
           className="card-img-top"
@@ -18,7 +18,7 @@ const Card = (props) => {
           </h6>
           <p className="card-text">{props.description}</p>
           </div>
-          <div class="card-footer d-flex justify-content-around">
+          <div className="card-footer d-flex justify-content-around">
           <a href={props.github} className="card-link"><i class="fas fa-code-branch"></i> GitHub Repo</a>
             <a href={props.url} className="card-link"><i class="fas fa-desktop"></i> Deployment</a>
           </div>
@@ -26,7 +26,6 @@ const Card = (props) => {
       </div>
 
   );
-  //   });
 };
 
 export default Card;

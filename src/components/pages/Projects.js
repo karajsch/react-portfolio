@@ -17,6 +17,7 @@ class Projects extends Component {
               return (
                 <Card
                   title={project.title}
+                  icon={project.icon}
                   url={project.url}
                   github={project.github}
                   image={project.image}

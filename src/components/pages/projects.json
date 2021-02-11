@@ -1,6 +1,7 @@
 [
     {
         "title": "Dungeon Master Manager",
+        "icon": "fas fa-dice-d20",
         "url": "https://obscure-sea-50010.herokuapp.com/",
         "github": "https://github.com/karajsch/Dungeon-Master-Manager",
         "image": "https://karajsch.github.io/imgs/dmm.png",
@@ -9,6 +10,7 @@
     },
     {
         "title": "Eat-Da-Burger",
+        "icon": "fas fa-hamburger",
         "url": "https://mighty-sea-25322.herokuapp.com/",
         "github": "https://github.com/karajsch/burger",
         "image": "https://karajsch.github.io/imgs/burger.png",
@@ -17,6 +19,7 @@
     },
     {
         "title": "Plant Scout",
+        "icon": "fas fa-seedling",
         "url": "https://karajsch.github.io/plant-scout/",
         "github": "https://github.com/karajsch/plant-scout",
         "image": "https://karajsch.github.io/imgs/plantscout.png",
@@ -25,6 +28,7 @@
     },
     {
         "title": "Day Planner",
+        "icon": "fas fa-book-open",
         "url": "https://karajsch.github.io/day-planner",
         "github": "https://github.com/karajsch/day-planner",
         "image": "https://karajsch.github.io/imgs/dayplanner.png",
@@ -33,6 +37,7 @@
     },
     {
         "title": "Password Generator",
+        "icon": "fas fa-lock",
         "url": "https://karajsch.github.io/password-generator",
         "github": "https://github.com/karajsch/password-generator",
         "image": "https://karajsch.github.io/imgs/passwordgen.png",
