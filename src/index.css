@@ -1,39 +1,42 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: #3333cc;
-    line-height: 26px;
-    background: #ff9999;
-    font-style: italic;
-    margin: 0
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #3333cc;
+  line-height: 26px;
+  background: #ff9999;
+  font-style: italic;
+  margin: 0;
+  padding-bottom: 20px;
+  height: 100%;
 }
 
 h1 {
-  color: #3333cc;;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #3333cc;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 200;
   font-style: italic;
   font-size: 40pt;
-  
 }
 
 h2 {
   color: #3333cc;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 200;
   font-style: italic;
   font-size: 18pt;
 }
 
-a:link, a:visited, a:active {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #FFF;
+a:link,
+a:visited,
+a:active {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
   font-weight: 200;
   font-style: italic;
 }
 
 a:hover {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: #3333cc;
   font-weight: 200;
   font-style: italic;
