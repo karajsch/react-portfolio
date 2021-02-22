@@ -4,7 +4,7 @@
         "icon": "far fa-id-badge",
         "url": "https://karajsch.github.io/user-directory/",
         "github": "https://github.com/karajsch/user-directory",
-        "image": "images/user-directory.png",
+        "image": "react-portfolio/images/user-directory.png",
         "description": "This simple application is an employee directory app populated with randomized users via Random User Generator. User Directory uses React to create data that's easily searchable and sortable, so it's easy to find a particular person or a group with commonalities by just clicking! Alternatively, you can clone the repo and runs the app in the development mode from your CLI by typing `npm run start` and http://localhost:3000 to view it in the browser.",
         "tools": "React, Axios, JavaScript, Node.js, Express.js"
     },
@@ -13,7 +13,7 @@
         "icon": "fas fa-dice-d20",
         "url": "https://obscure-sea-50010.herokuapp.com/",
         "github": "https://github.com/karajsch/Dungeon-Master-Manager",
-        "image": "images/dmm.png",
+        "image": "react-portfolio/images/dmm.png",
         "description": "Dungeon Master Manager (DMM) is a full stack application powered by Node.js and Express.js made in collaboration with John Hauth and Brandon Grayson. You can create a unique profile to keep your Dungeons & Dragons adventures organized. As a dungeon master, you need to keep track of all the characters in your game and keep track of where you are in the story. Using DMM, you can go into your profile and select which saved game you want to look up. You can see all of the characters that are involved within the game and even add new characters! Unleash your inner master and take control of your dungeon!",
         "tools": "HTML, CSS/Bootstrap, Handlebars, JavaScript, Node.js, Express.js, MySql, Heroku, Passport/Bcrypt"
     },
@@ -22,7 +22,7 @@
         "icon": "fas fa-hamburger",
         "url": "https://mighty-sea-25322.herokuapp.com/",
         "github": "https://github.com/karajsch/burger",
-        "image": "images/burger.png",
+        "image": "react-portfolio/images/burger.png",
         "description": "Eat-Da-Burger is a burger logging app powered by MySQL, Node, Express, and Handlebars! Burgers appear in the left area from you to choose from, or you can add as many new burgers as you want by typing your perfect burger in the text area then clicking the 'add burger' button.'devour it'! button to devour it, then it will be logged in the right area. This application uses Node and MySQL to query and route data while Handlebars generates the HTML. All burgers will be saved on a database on a server, whether eaten or not.",
         "tools": "HTML, CSS/Bootstrap, Handlebars, JavaScript, Node.js, Express.js, MySql, Heroku"
     },
@@ -31,7 +31,7 @@
         "icon": "fas fa-seedling",
         "url": "https://karajsch.github.io/plant-scout/",
         "github": "https://github.com/karajsch/plant-scout",
-        "image": "images/plantscout.png",
+        "image": "react-portfolio/images/plantscout.png",
         "description": "Plant Scout is an app made in collaboration with Gregory Leighton and Tamira Bell which encourages people to go outside and spend time in nature. In Plant Scout, the user can enter their location and get weather data in the form of temperature, humidity, UV index, visibility, as well as sunrise and sunset via Open Weather Map API. The user can also search for plants using any keyword they choose, and will be presented with a list of every plant from Trefle API that matches that keyword as well as a photo of the plant, the scientific name, and family name.",
         "tools": "HTML, CSS, JavaScript, Bootstrap, GoogleFonts, Trefle API, Open Weather API"
     },
@@ -40,7 +40,7 @@
         "icon": "fas fa-book-open",
         "url": "https://karajsch.github.io/day-planner",
         "github": "https://github.com/karajsch/day-planner",
-        "image": "images/day-planner.png",
+        "image": "react-portfolio/images/day-planner.png",
         "description": "A straightforward scheduler with hour-long blocks of time between 9 am through 5pm. The current date and local time is displayed at the top. The 9-5 hour blocks are green if the block is upcoming, red if it is that hour presently, and gray if the hour has already passed. Notes for each block can be alied by clicking the appropriate block and then hitting the &quot;Save&quot; button to the right!",
         "tools": "HTML, CSS, JavaScript, Bootstrap, GoogleFonts"
     },
@@ -49,7 +49,7 @@
         "icon": "fas fa-lock",
         "url": "https://karajsch.github.io/password-generator",
         "github": "https://github.com/karajsch/password-generator",
-        "image": "images/passgen.png",
+        "image": "react-portfolio/images/passgen.png",
         "description": "A functional password generating application that creates a completely random password based on whether the user prefers lower or uppercase, numbers, and/or special characters. The user is prompted to specify which criteria they prefer and as long as their preferred amount of characters is between 8 and 128, the generator will create a unique password. If the user enters no criteria, they will not be able to use the generator.",
         "tools": "HTML, CSS, JavaScript, Bootstrap, GoogleFonts"
     }
