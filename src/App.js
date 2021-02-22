@@ -11,7 +11,7 @@ import Contact from "./components/pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div>
@@ -26,6 +26,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
