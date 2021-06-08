@@ -7,8 +7,9 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
+      
         <Link className="navbar-brand" to="/">
-          Kara Schmidt
+        Kara Schmidt
         </Link>
         <div>
           <ul className="navbar-nav">

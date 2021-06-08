@@ -1,9 +1,20 @@
 .tools {
   font-family: Monaco;
   font-weight: bolder;
-  font-size: small
+  font-size: 18px;
 }
 
 .card-text {
-  font-size: 12pt;
+  font-size: 18px;
+}
+
+.card-link {
+  font-family: Monaco;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+h2.card-header {
+  background: rgba(255, 255, 255, 0.25);
+  
 }

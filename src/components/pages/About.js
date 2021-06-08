@@ -1,10 +1,17 @@
 import React from "react";
+import Kara from "../photo/kara.jpg";
 
 function About() {
   return (
     <div>
-      <div className="container-fluid w-75">
+      <div className="container-fluid" id="aboutme">
         <h1 className="m-5">About</h1>
+        <img
+          src={Kara}
+          height="250"
+          className="m-2 rounded-circle responsive float-left"
+          id="kara-img"
+        />
         <p>
           Hello! I'm a full stack developer based in Philadelphia. In February
           of 2021, I graduated from University of Pennsylvania LPS Coding

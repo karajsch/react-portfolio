@@ -1,17 +1,18 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
-  color: #3333cc;
-  line-height: 26px;
-  background: #ff9999;
-  font-style: italic;
+  font-family: "Work Sans", sans-serif;
+  font-size: 100%;
+  color: #000000;
+  background: linear-gradient(
+    225deg,
+    hsla(0, 100%, 84%, 1) 0%,
+    rgb(144, 221, 249) 100%
+  );
+  /* font-style: italic; */
   padding-bottom: 20px;
 }
 
@@ -20,7 +21,7 @@ p {
 }
 
 h1 {
-  color: #3333cc;
+  color: #000000;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 200;
   font-style: italic;
@@ -28,8 +29,8 @@ h1 {
 }
 
 h2 {
-  color: #3333cc;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000000;
+  font-family: "Work Sans", sans-serif;
   font-weight: 200;
   font-style: italic;
   font-size: 18pt;
@@ -38,32 +39,35 @@ h2 {
 a:link,
 a:visited,
 a:active {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 200;
   font-style: italic;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(255, 255, 255, 0) !important;
+  text-decoration-thickness: 5px !important;
 }
 
 a:hover {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #3333cc;
+  color: rgb(0, 0, 0);
   font-weight: 200;
   font-style: italic;
-  text-decoration: none;
-  transition: 0.3s;
+  text-decoration: underline !important;
+  text-decoration-color: #fff !important;
+  text-decoration-thickness: 5px !important;
+  transition: 0.5s !important;
 }
 
 .card {
-  background: #ff9999;
-  border: 1px solid #3333cc;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid #ffffff;
 }
 
 .card-header {
-  border-bottom: 1px solid #3333cc;
+  border-bottom: 1px solid #ffffff;
 }
 
 .card-footer {
-  border-top: 1px solid #3333cc;
+  border-top: 1px solid #ffffff;
 }
 
 .btn {
@@ -82,4 +86,12 @@ a:hover {
 .form-control {
   font-family: Monaco;
   border: 1px solid #3333cc;
+}
+
+#aboutme {
+  max-width: 1000px;
+}
+
+#kara-img {
+  opacity: 0.85;
 }

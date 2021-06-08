@@ -14,7 +14,7 @@ const Card = (props) => {
         />
         <div className="card-body">
           <h6 className="card-subtitle mb-3 tools">
-            <u>Tools</u>: {props.tools}
+            <u>Technologies</u>: {props.tools}
           </h6>
           <p className="card-text">{props.description}</p>
           </div>
