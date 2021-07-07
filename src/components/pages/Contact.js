@@ -3,7 +3,6 @@ import React from "react";
 const Contact = () => (
   <div>
       <div className="container-fluid w-75">
-        <h1 className="m-5">Contact</h1>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 m-5">
         <div className="col">
         <p>e | <a href="mailto: karaiscoding@gmail.com">karaiscoding@gmail.com</a> </p>
@@ -21,14 +20,14 @@ const Contact = () => (
                             Your Email Address
                             <div className="form-group w-75">
                                 <input type="email" className="form-control" name="_replyto"
-                                    placeholder="name @ example.com" required />
+                                    placeholder="name@example.com" required />
                             </div>
                             Your Message
                             <div className="form-group w-75">
                                 <textarea name="message" className="form-control" placeholder="Hello!" rows="7"
                                     required />
                             </div>
-                            <button type="submit" className="btn w-75">Submit</button>
+                            <button type="submit" className="btn w-75">Send</button>
                         </form>
         </div>
   </div>

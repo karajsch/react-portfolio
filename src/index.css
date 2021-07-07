@@ -1,97 +1,81 @@
 html {
-  position: relative;
-  min-height: 100%;
+  position:relative;
+  min-height:100%;
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
-  font-size: 100%;
-  color: #000000;
-  background: linear-gradient(
-    225deg,
-    hsla(0, 100%, 84%, 1) 0%,
-    rgb(144, 221, 249) 100%
-  );
-  /* font-style: italic; */
-  padding-bottom: 20px;
+  font-family:'Montserrat', sans-serif;
+  font-size:120%;
+  color:#000000;
+  background:white;
+  padding-bottom:20px;
 }
 
-p {
-  font-size: 24px;
+.intro {
+  font-size:1000%;
+  font-family:'didot';
+  font-style:italic;
 }
 
 h1 {
-  color: #000000;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 40pt;
+  color:#000000;
+  font-style:normal;
+  font-size:200%;
 }
 
 h2 {
-  color: #000000;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 18pt;
+  color:#000000;
+  font-size:120%;
 }
 
-a:link,
-a:visited,
-a:active {
-  color: rgb(0, 0, 0);
-  font-weight: 200;
-  font-style: italic;
-  text-decoration: underline !important;
-  text-decoration-color: rgba(255, 255, 255, 0) !important;
-  text-decoration-thickness: 5px !important;
+a:link, a:visited, a:active {
+  color:black;
+  font-style:normal;
+  text-decoration:none
 }
 
 a:hover {
-  color: rgb(0, 0, 0);
-  font-weight: 200;
-  font-style: italic;
-  text-decoration: underline !important;
-  text-decoration-color: #fff !important;
-  text-decoration-thickness: 5px !important;
-  transition: 0.5s !important;
+  color:black;
+  background-color:rgb(255, 255, 121);
+  font-style:normal;
+  text-decoration:none
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.25);
-  border: 1px solid #ffffff;
+  background:rgba(255, 255, 255, 0.25);
+  border:1px solid #ffffff;
 }
 
 .card-header {
-  border-bottom: 1px solid #ffffff;
+  border-bottom:1px solid #ffffff;
 }
 
 .card-footer {
-  border-top: 1px solid #ffffff;
+  border-top:1px solid #ffffff;
 }
 
 .btn {
-  background-color: #3333cc;
-  color: white;
-  font-style: italic;
-  font-size: 18pt;
+  background-color:#ff4747;
+  color:#ffffff;
+  font-style:normal;
+  font-size:180%;
 }
 
 .btn:hover {
-  background-color: #2a2a9d;
-  color: white;
-  transition: 0.3s;
+  background-color:#e90000;
+  color:white;
+  transition:0.3s;
 }
 
 .form-control {
-  font-family: Monaco;
-  border: 1px solid #3333cc;
+  font-family:Monaco;
+  font-size:95%;
 }
 
 #aboutme {
-  max-width: 1000px;
+  max-width:900px;
 }
 
 #kara-img {
-  opacity: 0.85;
+  opacity:0.85;
 }

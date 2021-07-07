@@ -1,4 +1,29 @@
 .navbar {
-    border-bottom: solid 1px #FFF;
-    font-size: 200%;
+  font-size: 200%;
+  margin: 5%;
+  line-height: 100%;
 }
+
+.nav-link:hover {
+    background-color:transparent;
+  }
+
+#about:hover {
+  background-color: rgb(188, 255, 190);
+}
+
+#portfolio:hover {
+  background-color: rgb(255, 255, 205);
+}
+
+#contact:hover {
+    background-color: rgb(202, 241, 255);
+  }
+  
+#home:hover {
+    background-color: #ffe1e1;
+  }
+
+#about:hover, #portfolio:hover, #contact:hover, #home:hover {
+    transition:0.5s;
+  }
